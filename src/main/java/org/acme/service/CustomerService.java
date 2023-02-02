@@ -70,7 +70,7 @@ public class CustomerService {
 
         CustomerEntity customerEntity = new CustomerEntity();
 
-        customerEntity.setAddress(customerEntity.getAddress());
+        customerEntity.setAddress(customer.getAddress());
         customerEntity.setAge(customer.getAge());
         customerEntity.setEmail(customer.getEmail());
         customerEntity.setName(customer.getName());
